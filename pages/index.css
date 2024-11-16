@@ -260,12 +260,12 @@
   font-size: 20px;
 }
 
-.reservation__checkbox input[type="checkbox"] {
+.reservation__checkbox input[type="checkbox"]:checked {
   width: 20px;
   height: 20px;
 }
 
-.container_check {
+.reservation__container-check {
   display: flex;
   align-items: center;
   justify-content: center;
