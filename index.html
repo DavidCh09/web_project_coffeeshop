@@ -7,8 +7,7 @@
     <meta name="description" content="Coffee Shop de David Chaves" />
     <meta name="keywords" content="cafeteria, coffee shop" />
     <meta name="author" content="David Chaves" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="../pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +34,7 @@
               <a class="nav__link" href="#reservation">Reservar una mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="#Contactos">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +51,7 @@
 
         <img
           src="./images/inside_coffee_shop.png"
-          alt=""
+          alt="Encabezado"
           class="header__image"
         />
 
@@ -179,7 +178,40 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="Contactos">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <div>
+            <img
+              class="footer__logo"
+              src="images/logo_coffeeshop_light.svg"
+              alt="logo footer"
+            />
+          </div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="images/facebook_white.svg"
+                  alt="Logo facebook"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="images/instagram_white.svg"
+                  alt="Logo Instagram"
+                  class="footer__social-icon"
+                />
+                <a href="" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 David Chaves</p>
+      </footer>
     </div>
   </body>
 </html>
