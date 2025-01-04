@@ -56,10 +56,10 @@
   justify-content: space-between;
 }
 
-.left-text {
+.recipes__left-text {
   text-align: left;
 }
 
-.right-text {
+.recipes__right-text {
   text-align: right;
 }

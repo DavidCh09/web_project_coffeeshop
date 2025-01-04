@@ -105,10 +105,10 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__videos-caption">
-                <span class="left-text"
+                <span class="recipes__left-text"
                   >The Ultimate French Press Technique
                 </span>
-                <span class="right-text">~3 min</span>
+                <span class="recipes__right-text">~3 min</span>
               </div>
             </div>
           </div>
@@ -116,21 +116,21 @@
         <section id="reservation" class="reservation">
           <h2 class="reservation__title">Reserva una mesa</h2>
           <form class="form reservation__form">
-            <fieldset class="reservation__fieldset">
-              <label for="Nombre" class="reservation__label">Nombre *</label>
+            <fieldset class="form__fieldset">
+              <label for="Nombre" class="form__label">Nombre *</label>
               <input
-                class="reservation__imput"
+                class="form__imput"
                 type="text"
                 name="Nombre"
                 id="Nombre"
                 placeholder="Nombre"
                 required
               />
-              <label for="Comensales" class="reservation__label"
+              <label for="Comensales" class="form__label"
                 >Número de comensales *</label
               >
               <input
-                class="reservation__imput"
+                class="form__imput"
                 type="number"
                 name="Comensales"
                 id="Comensales"
@@ -139,34 +139,32 @@
                 placeholder="1-8"
                 required
               />
-              <label for="date" class="reservation__label"
-                >Fecha y hora *</label
-              >
+              <label for="date" class="form__label">Fecha y hora *</label>
               <input
-                class="reservation__imput"
+                class="form__imput"
                 type="datetime-local"
                 name="Fecha y hora"
                 id="date"
                 required
               />
-              <label for="Correo" class="reservation__label"
+              <label for="Correo" class="form__label"
                 >Tu correo electrónico *</label
               >
               <input
-                class="reservation__imput"
+                class="form__imput"
                 type="email"
                 name="Correo"
                 id="Correo"
                 placeholder="ejemplo@email.com"
                 required
               />
-              <button class="reservation__button" type="submit">
+              <button class="form__button" type="submit">
                 Reservar una mesa
               </button>
-              <div class="reservation__container reservation__container-check">
+              <div class="form__container form__container-check">
                 <label class="reservation__label" for="Acepto">
                   <input
-                    class="reservation__checkbox"
+                    class="form__checkbox"
                     type="checkbox"
                     id="Acepto"
                     required
